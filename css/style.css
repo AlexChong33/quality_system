@@ -1,0 +1,132 @@
+/* Main styles */
+body {
+    font-family: 'Microsoft YaHei', Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #005b96;
+    color: white;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    text-align: center;
+    height: 120px;
+    overflow: hidden;
+}
+
+header h1 {
+    font-size: 2.4em;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.4em;
+    margin-top: 5px;
+}
+
+h1, h2 {
+    color: #005b96;
+}
+
+.nav-menu {
+    background-color: #e1e1e1;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.nav-menu a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: #005b96;
+    font-weight: bold;
+}
+
+.document-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    table-layout: fixed;
+}
+
+.document-table th:nth-child(1),
+.document-table td:nth-child(1) {
+    width: 15%;
+}
+
+.document-table th:nth-child(2),
+.document-table td:nth-child(2) {
+    width: 65%;
+}
+
+.document-table th:nth-child(3),
+.document-table td:nth-child(3) {
+    width: 35%;
+}
+
+.document-table th, .document-table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.document-table th {
+    background-color: #005b96;
+    color: white;
+}
+
+.document-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.department-section {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.department-header {
+    background-color: #e6f2ff;
+    border-top: 2px solid #b3d1ff;
+    border-bottom: 2px solid #b3d1ff;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.department-header td {
+    font-weight: bold;
+    padding: 10px 12px !important;
+}
+
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #e1e1e1;
+    border-radius: 5px;
+}
+
+.iso-badge {
+    background-color: #005b96;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    margin-left: 10px;
+}
+
+.doc-count {
+    font-size: 0.8em;
+    color: #666;
+    font-weight: normal;
+    margin-left: 10px;
+}
